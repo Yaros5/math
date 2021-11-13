@@ -1,16 +1,10 @@
-# -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'number_1.ui'
-#
-# Created by: PyQt5 UI code generator 5.14.1
-#
-# WARNING! All changes made in this file will be lost!
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Main(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(687, 532)
@@ -83,7 +77,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
+    ui = Main()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())

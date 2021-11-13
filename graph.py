@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 list_1 = list(range(-1000, 1000))
 list_2 = []
 plt.style.use('seaborn')
