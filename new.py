@@ -226,7 +226,7 @@ class Ui_MainWindow_3(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Transportuvania"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Транспонування матриці"))
         self.label.setText(_translate("MainWindow", "Матриця A"))
         self.pushButton.setText(_translate("MainWindow", "Обчислити"))
         self.label_2.setText(_translate("MainWindow", "Відповідь:"))
@@ -631,7 +631,7 @@ class Ui_MainWindow_2(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Визначник"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Визначник матриці"))
         self.label.setText(_translate("MainWindow", "Матриця A"))
         self.pushButton.setText(_translate("MainWindow", "Обчислити"))
 class Ui_MainWindow(object):
@@ -745,11 +745,11 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Виберіть дію"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Меню"))
         self.pushButton_2.setText(_translate("MainWindow", "Обернена матриця"))
         self.pushButton_3.setText(_translate("MainWindow", "Лінійне рівняння"))
         self.pushButton_4.setText(_translate("MainWindow", "Транспонування"))
-        self.pushButton.setText(_translate("MainWindow", "Визначник"))
+        self.pushButton.setText(_translate("MainWindow", "Визначник матриці"))
 
 
 class Ui_MainWindow_1(object):
@@ -962,7 +962,7 @@ class Ui_MainWindow_1(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Лінійна комбінація"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Лінійне рівняння"))
         self.label.setText(_translate("MainWindow", "Матриця A"))
         self.label_2.setText(_translate("MainWindow", "Матриця B"))
         self.pushButton.setText(_translate("MainWindow", "Обчислити"))
