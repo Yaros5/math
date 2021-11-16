@@ -15,16 +15,16 @@ MainWindow.show()
 # Прописуєм логіку кнопок
 
 def bp():
-
+    pass
 
 def bp_2():
-
+    pass
 
 def bp_3():
-
+    pass
 
 def bp_4():
-
+    pass
 
 
 ui.pushButton.clicked.connect(bp)
