@@ -10,7 +10,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow_1(object):
+class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(477, 515)
@@ -55,204 +55,156 @@ class Ui_MainWindow_1(object):
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.spinBox = QtWidgets.QSpinBox(self.horizontalLayoutWidget)
-        self.spinBox.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit = QtWidgets.QLineEdit(self.horizontalLayoutWidget)
+        self.lineEdit.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox.setObjectName("spinBox")
-        self.horizontalLayout.addWidget(self.spinBox)
-        self.spinBox_2 = QtWidgets.QSpinBox(self.horizontalLayoutWidget)
-        self.spinBox_2.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout.addWidget(self.lineEdit)
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.horizontalLayoutWidget)
+        self.lineEdit_2.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_2.setObjectName("spinBox_2")
-        self.horizontalLayout.addWidget(self.spinBox_2)
-        self.spinBox_3 = QtWidgets.QSpinBox(self.horizontalLayoutWidget)
-        self.spinBox_3.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.horizontalLayout.addWidget(self.lineEdit_2)
+        self.lineEdit_3 = QtWidgets.QLineEdit(self.horizontalLayoutWidget)
+        self.lineEdit_3.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_3.setObjectName("spinBox_3")
-        self.horizontalLayout.addWidget(self.spinBox_3)
+        self.lineEdit_3.setObjectName("lineEdit_3")
+        self.horizontalLayout.addWidget(self.lineEdit_3)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(self.centralwidget)
         self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(40, 210, 231, 80))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
-        self.spinBox_4 = QtWidgets.QSpinBox(self.horizontalLayoutWidget_2)
-        self.spinBox_4.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_4 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_2)
+        self.lineEdit_4.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_4.setObjectName("spinBox_4")
-        self.horizontalLayout_2.addWidget(self.spinBox_4)
-        self.spinBox_5 = QtWidgets.QSpinBox(self.horizontalLayoutWidget_2)
-        self.spinBox_5.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_4.setObjectName("lineEdit_4")
+        self.horizontalLayout_2.addWidget(self.lineEdit_4)
+        self.lineEdit_5 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_2)
+        self.lineEdit_5.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_5.setObjectName("spinBox_5")
-        self.horizontalLayout_2.addWidget(self.spinBox_5)
-        self.spinBox_6 = QtWidgets.QSpinBox(self.horizontalLayoutWidget_2)
-        self.spinBox_6.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_5.setObjectName("lineEdit_5")
+        self.horizontalLayout_2.addWidget(self.lineEdit_5)
+        self.lineEdit_6 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_2)
+        self.lineEdit_6.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_6.setObjectName("spinBox_6")
-        self.horizontalLayout_2.addWidget(self.spinBox_6)
+        self.lineEdit_6.setObjectName("lineEdit_6")
+        self.horizontalLayout_2.addWidget(self.lineEdit_6)
         self.horizontalLayoutWidget_3 = QtWidgets.QWidget(self.centralwidget)
         self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(40, 290, 231, 80))
         self.horizontalLayoutWidget_3.setObjectName("horizontalLayoutWidget_3")
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_3)
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.spinBox_7 = QtWidgets.QSpinBox(self.horizontalLayoutWidget_3)
-        self.spinBox_7.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_7 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit_7.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_7.setObjectName("spinBox_7")
-        self.horizontalLayout_3.addWidget(self.spinBox_7)
-        self.spinBox_8 = QtWidgets.QSpinBox(self.horizontalLayoutWidget_3)
-        self.spinBox_8.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_7.setObjectName("lineEdit_7")
+        self.horizontalLayout_3.addWidget(self.lineEdit_7)
+        self.lineEdit_8 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit_8.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_8.setObjectName("spinBox_8")
-        self.horizontalLayout_3.addWidget(self.spinBox_8)
-        self.spinBox_9 = QtWidgets.QSpinBox(self.horizontalLayoutWidget_3)
-        self.spinBox_9.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_8.setObjectName("lineEdit_8")
+        self.horizontalLayout_3.addWidget(self.lineEdit_8)
+        self.lineEdit_9 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit_9.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_9.setObjectName("spinBox_9")
-        self.horizontalLayout_3.addWidget(self.spinBox_9)
+        self.lineEdit_9.setObjectName("lineEdit_9")
+        self.horizontalLayout_3.addWidget(self.lineEdit_9)
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(320, 110, 81, 281))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
-        self.spinBox_11 = QtWidgets.QSpinBox(self.verticalLayoutWidget)
-        self.spinBox_11.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_10 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.lineEdit_10.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_11.setObjectName("spinBox_11")
-        self.verticalLayout.addWidget(self.spinBox_11)
-        self.spinBox_10 = QtWidgets.QSpinBox(self.verticalLayoutWidget)
-        self.spinBox_10.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_10.setObjectName("lineEdit_10")
+        self.verticalLayout.addWidget(self.lineEdit_10)
+        self.lineEdit_11 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.lineEdit_11.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_10.setObjectName("spinBox_10")
-        self.verticalLayout.addWidget(self.spinBox_10)
-        self.spinBox_12 = QtWidgets.QSpinBox(self.verticalLayoutWidget)
-        self.spinBox_12.setStyleSheet(".QSpinBox {\n"
+        self.lineEdit_11.setObjectName("lineEdit_11")
+        self.verticalLayout.addWidget(self.lineEdit_11)
+        self.lineEdit_12 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.lineEdit_12.setStyleSheet(".QLineEdit {\n"
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
 "\n"
-".QSpinBox:hover {\n"
+".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
-"}\n"
-"\n"
-".QSpinBox:pressed {\n"
-"  font-size: 14px;\n"
 "}")
-        self.spinBox_12.setObjectName("spinBox_12")
-        self.verticalLayout.addWidget(self.spinBox_12)
+        self.lineEdit_12.setObjectName("lineEdit_12")
+        self.verticalLayout.addWidget(self.lineEdit_12)
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(220, 420, 181, 17))
         self.label_3.setStyleSheet("color: #fff\n"
@@ -278,8 +230,8 @@ class Ui_MainWindow_1(object):
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    Main = QtWidgets.QMainWindow()
-    ux = Ui_MainWindow_1()
-    ux.setupUi(Main)
-    Main.show()
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
     sys.exit(app.exec_())
