@@ -12,24 +12,41 @@ ui.setupUi(MainWindow)
 MainWindow.show()
 
 
-# Прописуєм логіку
+# Прописуєм логіку кнопок
+
 def bp():
-    print("hello world")
-    exit()
+    MainWindow.hide()
+    MainWindow = QtWidgets.QCalcDeterminant()
+    ui = Ui_CalcDeterminant()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+
 def bp_2():
-    pass
+    MainWindow.hide()
+    MainWindow = QtWidgets.QCalcInverted()
+    ui = Ui_CalcInverted()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
 
 def bp_3():
-    pass
+    MainWindow.hide()
+    MainWindow = QtWidgets.QCalcKramar()
+    ui = Ui_CalcKramar()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
 
 def bp_4():
-    pass
+    MainWindow.hide()
+    MainWindow = QtWidgets.QCalcTranspont()
+    ui = Ui_CalcTranspont()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
 
 
 ui.pushButton.clicked.connect(bp)
-ui.pushButton_2.clicked.connect(bp)
-ui.pushButton_3.clicked.connect(bp)
-ui.pushButton_4.clicked.connect(bp)
+ui.pushButton_2.clicked.connect(bp_2)
+ui.pushButton_3.clicked.connect(bp_3)
+ui.pushButton_4.clicked.connect(bp_4)
 
 # виходим з вікна
 sys.exit(app.exec_())
