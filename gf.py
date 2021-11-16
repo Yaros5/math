@@ -15,7 +15,7 @@ MainWindow.show()
 # Прописуєм логіку
 def bp():
     print("hello world")
-
+    exit()
 def bp_2():
     pass
 
