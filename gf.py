@@ -1,6 +1,7 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 from Button_Main import Ui_MainWindow
+from Kram import Ui_MainWindow_1
 
 # додаєм в проект стартовий файл
 app = QtWidgets.QApplication(sys.argv)
@@ -10,6 +11,12 @@ MainWindow = QtWidgets.QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 MainWindow.show()
+# проводить інціалізацію 1
+MainWindow = QtWidgets.QMainWindow()
+ux = Ui_MainWindow_1()
+ux.setupUi(MainWindow)
+MainWindow.show()
+sys.exit(app.exec_())
 
 
 # Прописуєм логіку кнопок
@@ -17,11 +24,14 @@ MainWindow.show()
 def bp():
     pass
 
+
 def bp_2():
     pass
 
+
 def bp_3():
     pass
+
 
 def bp_4():
     pass
