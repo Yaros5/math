@@ -16,8 +16,20 @@ MainWindow.show()
 def bp():
     print("hello world")
 
+def bp_2():
+    pass
 
+def bp_3():
+    pass
+
+def bp_4():
+    pass
+
+
+ui.pushButton.clicked.connect(bp)
 ui.pushButton_2.clicked.connect(bp)
+ui.pushButton_3.clicked.connect(bp)
+ui.pushButton_4.clicked.connect(bp)
 
 # виходим з вікна
 sys.exit(app.exec_())
