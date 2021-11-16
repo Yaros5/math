@@ -33,7 +33,7 @@ def bp():
     d2 = a[0][0]*b2*a[2][2] + b1*a[1][2]*a[2][0] + a[0][2]*a[1][0]*b3 - a[0][2]*b2*a[2][0] - a[0][0]*a[1][2]*b3 - b1*a[1][0]*a[2][2]
     d3 = a[0][0]*a[1][1]*b3 + a[0][1]*b2*a[2][0] + b1*a[1][0]*a[2][1] - b1*a[1][1]*a[2][0] - a[0][0]*b2*a[2][1] - a[0][1]*a[1][0]*b3
     if(d == 0):
-        ui.label_3.setText("Determinant equals zero. No possible solution.")
+        ui.label_3.setText("Determinant equals zero. No solution.")
     else:
         text = "X1 = " + str(round(d/d1,3)) +" ; X2 = "+str(round(d/d2,3))+" ; X3 = "+str(round(d/d3,3))
         ui.label_3.setText(text)
