@@ -10,7 +10,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Ui_MainWindow_4(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(655, 515)
@@ -245,8 +245,8 @@ class Ui_MainWindow(object):
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+    MainWin = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow_4()
+    ui.setupUi(MainWin)
+    MainWin.show()
     sys.exit(app.exec_())
