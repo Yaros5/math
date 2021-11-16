@@ -1,13 +1,13 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from Reversed import Ui_MainWindow_4
+from Reversed import Ui_MainWindow_3
 
 # додаєм в проект стартовий файл
 app = QtWidgets.QApplication(sys.argv)
 
 # проводим ініціалізації
 MainWindow = QtWidgets.QMainWindow()
-ui = Ui_MainWindow_4()
+ui = Ui_MainWindow_3()
 ui.setupUi(MainWindow)
 MainWindow.show()
 
