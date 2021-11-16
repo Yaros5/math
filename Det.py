@@ -10,7 +10,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Ui_MainWindow_2(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(311, 502)
@@ -144,6 +144,7 @@ class Ui_MainWindow(object):
 "  color: #fff;\n"
 "  font-size: 15px;\n"
 "}\n"
+                                      
 "\n"
 ".QLineEdit:hover {\n"
 "  background: #2c3e50;\n"
@@ -184,9 +185,10 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+    MainW = QtWidgets.QMainWindow()
+    uix = Ui_MainWindow_2()
+    uix.setupUi(MainW)
+    MainW.show()
     sys.exit(app.exec_())

@@ -20,34 +20,34 @@ class Ui_MainWindow_1(object):
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(130, 80, 81, 17))
         self.label.setStyleSheet("color: #fff\n"
-"")
+                                 "")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(320, 80, 81, 20))
         self.label_2.setStyleSheet("color: #fff\n"
-"")
+                                   "")
         self.label_2.setObjectName("label_2")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(40, 410, 131, 41))
         self.pushButton.setStyleSheet(".QPushButton {\n"
-"  border: none;\n"
-"  background: #ecf0f1;\n"
-"  color: #000;\n"
-"  border-radius: 20px;\n"
-"  width: 200px;\n"
-"  height: 100px;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QPushButton:hover {\n"
-"  background: #bdc3c7;\n"
-"}\n"
-"\n"
-".QPushButton:pressed {\n"
-"  width: 95px;\n"
-"  height: 18px;\n"
-"  font-size: 14px;\n"
-"}")
+                                      "  border: none;\n"
+                                      "  background: #ecf0f1;\n"
+                                      "  color: #000;\n"
+                                      "  border-radius: 20px;\n"
+                                      "  width: 200px;\n"
+                                      "  height: 100px;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QPushButton:hover {\n"
+                                      "  background: #bdc3c7;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QPushButton:pressed {\n"
+                                      "  width: 95px;\n"
+                                      "  height: 18px;\n"
+                                      "  font-size: 14px;\n"
+                                      "}")
         self.pushButton.setObjectName("pushButton")
         self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(40, 130, 231, 80))
@@ -57,35 +57,35 @@ class Ui_MainWindow_1(object):
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.lineEdit = QtWidgets.QLineEdit(self.horizontalLayoutWidget)
         self.lineEdit.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                    "  color: #fff;\n"
+                                    "  font-size: 15px;\n"
+                                    "}\n"
+                                    "\n"
+                                    ".QLineEdit:hover {\n"
+                                    "  background: #2c3e50;\n"
+                                    "}")
         self.lineEdit.setObjectName("lineEdit")
         self.horizontalLayout.addWidget(self.lineEdit)
         self.lineEdit_2 = QtWidgets.QLineEdit(self.horizontalLayoutWidget)
         self.lineEdit_2.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.horizontalLayout.addWidget(self.lineEdit_2)
         self.lineEdit_3 = QtWidgets.QLineEdit(self.horizontalLayoutWidget)
         self.lineEdit_3.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.horizontalLayout.addWidget(self.lineEdit_3)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(self.centralwidget)
@@ -96,35 +96,35 @@ class Ui_MainWindow_1(object):
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_2)
         self.lineEdit_4.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.horizontalLayout_2.addWidget(self.lineEdit_4)
         self.lineEdit_5 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_2)
         self.lineEdit_5.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_5.setObjectName("lineEdit_5")
         self.horizontalLayout_2.addWidget(self.lineEdit_5)
         self.lineEdit_6 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_2)
         self.lineEdit_6.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_6.setObjectName("lineEdit_6")
         self.horizontalLayout_2.addWidget(self.lineEdit_6)
         self.horizontalLayoutWidget_3 = QtWidgets.QWidget(self.centralwidget)
@@ -135,35 +135,35 @@ class Ui_MainWindow_1(object):
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.lineEdit_7 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
         self.lineEdit_7.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_7.setObjectName("lineEdit_7")
         self.horizontalLayout_3.addWidget(self.lineEdit_7)
         self.lineEdit_8 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
         self.lineEdit_8.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_8.setObjectName("lineEdit_8")
         self.horizontalLayout_3.addWidget(self.lineEdit_8)
         self.lineEdit_9 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
         self.lineEdit_9.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                      "  color: #fff;\n"
+                                      "  font-size: 15px;\n"
+                                      "}\n"
+                                      "\n"
+                                      ".QLineEdit:hover {\n"
+                                      "  background: #2c3e50;\n"
+                                      "}")
         self.lineEdit_9.setObjectName("lineEdit_9")
         self.horizontalLayout_3.addWidget(self.lineEdit_9)
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
@@ -174,41 +174,41 @@ class Ui_MainWindow_1(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.lineEdit_10 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit_10.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                       "  color: #fff;\n"
+                                       "  font-size: 15px;\n"
+                                       "}\n"
+                                       "\n"
+                                       ".QLineEdit:hover {\n"
+                                       "  background: #2c3e50;\n"
+                                       "}")
         self.lineEdit_10.setObjectName("lineEdit_10")
         self.verticalLayout.addWidget(self.lineEdit_10)
         self.lineEdit_11 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit_11.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                       "  color: #fff;\n"
+                                       "  font-size: 15px;\n"
+                                       "}\n"
+                                       "\n"
+                                       ".QLineEdit:hover {\n"
+                                       "  background: #2c3e50;\n"
+                                       "}")
         self.lineEdit_11.setObjectName("lineEdit_11")
         self.verticalLayout.addWidget(self.lineEdit_11)
         self.lineEdit_12 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit_12.setStyleSheet(".QLineEdit {\n"
-"  color: #fff;\n"
-"  font-size: 15px;\n"
-"}\n"
-"\n"
-".QLineEdit:hover {\n"
-"  background: #2c3e50;\n"
-"}")
+                                       "  color: #fff;\n"
+                                       "  font-size: 15px;\n"
+                                       "}\n"
+                                       "\n"
+                                       ".QLineEdit:hover {\n"
+                                       "  background: #2c3e50;\n"
+                                       "}")
         self.lineEdit_12.setObjectName("lineEdit_12")
         self.verticalLayout.addWidget(self.lineEdit_12)
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(220, 420, 181, 17))
         self.label_3.setStyleSheet("color: #fff\n"
-"")
+                                   "")
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
         MainWindow.setCentralWidget(self.centralwidget)
@@ -229,9 +229,10 @@ class Ui_MainWindow_1(object):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     Main = QtWidgets.QMainWindow()
-    ux= Ui_MainWindow_1()
+    ux = Ui_MainWindow_1()
     ux.setupUi(Main)
     Main.show()
     sys.exit(app.exec_())
