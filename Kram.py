@@ -207,10 +207,10 @@ class Ui_MainWindow_1(object):
         self.verticalLayout.addWidget(self.lineEdit_12)
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(220, 420, 181, 17))
-        self.label_3.setStyleSheet("color: #fff\n"
-                                   "")
+        self.label_3.setStyleSheet("color: #fff;\n""font-size: 4px;")
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
+        self.label_3.setStyleSheet("")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -221,7 +221,7 @@ class Ui_MainWindow_1(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Лінійна комбінація"))
         self.label.setText(_translate("MainWindow", "Матриця A"))
         self.label_2.setText(_translate("MainWindow", "Матриця B"))
         self.pushButton.setText(_translate("MainWindow", "Обчислити"))
